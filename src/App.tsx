@@ -1,24 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Blog from "./components/Blog";
+import Cards from "./components/Cards";
+import Caurosel from "./components/Caurosel";
+import Footer from "./components/Footer";
+import Hero from "./components/Hero";
+import SmartBanking from "./components/SmartBanking";
+import SwiftPayment from "./components/SwiftPayment";
+import Tips from "./components/Tips";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="max-w-[1933px] mx-auto overflow-x-hidden">
+      <Hero />
+      <SwiftPayment />
+      <Cards />
+      <SmartBanking />
+      <Tips />
+      <Caurosel />
+      <Blog />
+      <Footer />
     </div>
   );
 }
