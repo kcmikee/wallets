@@ -26,8 +26,11 @@ function Hero() {
         <div className="w-[402px] flex items-center justify-between mr-28">
           {links.map((link) =>
             link?.subLink ? (
-              <div className="flex items-center justify-center cursor-pointer">
-                <a key={link.id} href={link.text} className="text-white">
+              <div
+                key={link.id}
+                className="flex items-center justify-center cursor-pointer"
+              >
+                <a href={link.text} className="text-white">
                   {link.text}
                 </a>
                 <img src={chevron} alt="sub" className="ml-2" />
@@ -124,6 +127,7 @@ function Hero() {
 }
 
 export default Hero;
+
 const Container = styled.div`
   background: #0c0b0b;
   .nav{

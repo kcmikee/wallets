@@ -48,7 +48,7 @@ function Cards() {
                   key={card.id}
                 >
                   <h1
-                    className={`pl-5 text-[30px] font-[Eksell]  ${
+                    className={`pl-5 text-[30px] font-[Eksell] text-black  ${
                       active !== card.id && "opacity-40"
                     }`}
                   >

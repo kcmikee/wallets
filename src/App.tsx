@@ -1,6 +1,6 @@
 import Blog from "./components/Blog";
 import Cards from "./components/Cards";
-import Caurosel from "./components/Caurosel";
+import Caurosel from "./components/Caurosel2";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import SmartBanking from "./components/SmartBanking";
