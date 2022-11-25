@@ -45,7 +45,7 @@ function Caurosel() {
 
   return (
     <div className="bg-black h-[102vh] w-[100vw] ">
-      <div className="pt-[70px] w-[80%] mx-auto">
+      <div className="pt-[50px] w-[80%] mx-auto">
         <h1 className="mt-[10px] text-3xl text-white font-[Eksell]">
           Positive banking at your fingertips.
         </h1>

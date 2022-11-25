@@ -24,7 +24,15 @@ function Caurosel() {
       text: ` The Wallets payroll is seamless, the cards & sub wallets allow
       us to be flexible with payments and imprest to people outside of
       the main founding team. Hands down that same outlook`,
-      author: " Michael Ayogu",
+      author: " Jane Sterling",
+      sub: "Co-founder, Releaf (YC S17)",
+    },
+    {
+      id: 3,
+      text: ` The Wallets payroll is seamless, the cards & sub wallets allow
+      us to be flexible with payments and imprest to people outside of
+      the main founding team. Hands down that same outlook`,
+      author: "Danjuma Umar",
       sub: "Co-founder, Releaf (YC S17)",
     },
   ];
@@ -41,7 +49,7 @@ function Caurosel() {
   };
 
   return (
-    <div className="bg-black h-[102vh] w-[100vw] ">
+    <div className="bg-black min-h-[102vh] w-[100vw] ">
       <div className="pt-[70px] w-[80%] mx-auto">
         <h1 className="mt-[10px] text-3xl text-white font-[Eksell]">
           Positive banking at your fingertips.

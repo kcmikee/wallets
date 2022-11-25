@@ -98,6 +98,7 @@ function Cards() {
 export default Cards;
 
 const Container = styled.div`
+  min-height: 100vh;
   height: 100vh;
   width: 100vw;
   display: flex;
